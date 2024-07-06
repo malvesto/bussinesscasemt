@@ -1,0 +1,60 @@
+{
+  "employee": [
+    {
+      "id": "2",
+      "fornecedor": "DHL",
+      "motorista": "Guilherme Luis",
+      "placadacarreta": "IWW-1I48",
+      "produtos": "Eletrônicos",
+      "pesobruto": "1000",
+      "valornota": "50000",
+      "status": "Na portaria",
+      "tipoOperacao": "Carga"
+    },
+    {
+      "id": "0816",
+      "fornecedor": "DHL Transportes",
+      "motorista": "Estefânia Moura",
+      "placadacarreta": "IQU-1O93",
+      "produtos": "Roupas",
+      "pesobruto": "83400",
+      "valornota": "40345",
+      "status": "Carregando",
+      "tipoOperacao": "Carga"
+    },
+    {
+      "id": "908e",
+      "fornecedor": "DHL Supply Chain",
+      "motorista": "Ariadne",
+      "placadacarreta": "IWE-1H34",
+      "produtos": "Produtos de Higiene",
+      "pesobruto": "23244",
+      "valornota": "23452",
+      "status": "Finalizado",
+      "tipoOperacao": "Carga"
+    },
+    {
+      "id": "32e4",
+      "fornecedor": "Teste",
+      "motorista": "TestandoCarga",
+      "placadacarreta": "YES-I4ED",
+      "produtos": "Cosméticos",
+      "pesobruto": "22324",
+      "valornota": "10000",
+      "status": "Carregando",
+      "tipoOperacao": "Descarga"
+    }
+  ],
+  "users": [
+    {
+      "id": "7a2f",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": "7b5b",
+      "username": "matheus",
+      "password": "matheus"
+    }
+  ]
+}

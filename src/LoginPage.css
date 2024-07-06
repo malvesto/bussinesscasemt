@@ -1,0 +1,103 @@
+/* Estilos para a página de login */
+
+.login-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh;
+}
+
+.login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin-top: 20px; /* Espaço acima do formulário */
+    margin-bottom: 20px; /* Espaço abaixo do formulário */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-form .form-group {
+    margin-top: 20px;
+    text-align: left; /* Alinha os elementos do formulário à esquerda */
+}
+
+.login-form button {
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+    width: 100%; /* Largura total */
+    display: block; /* Exibir em uma linha separada */
+    margin-top: 20px; /* Espaçamento acima do botão */
+}
+
+.login-form button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.login-form button:disabled {
+    background-color: #ccc; /* Cor de fundo do botão desativado */
+    cursor: not-allowed;
+}
+
+.login-form .btn-secondary {
+    padding: 10px 0;
+    background-color: #6c757d; /* Cor de fundo do botão secundário */
+    font-size: 16px;
+    color: #fff; /* Cor do texto do botão secundário */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+    width: 100%; /* Largura total */
+    display: block; /* Exibir em uma linha separada */
+    margin-top: 20px; /* Espaçamento acima do botão */
+}
+
+.login-form .btn-secondary:hover {
+    background-color: #5a6268; /* Cor de fundo do botão secundário ao passar o mouse */
+}
+
+.login-form .form-control {
+    width: 200%; /* Largura total */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Espaçamento inferior entre os campos */
+}
+
+.login-form .form-control:focus {
+    outline: none;
+    border-color: #007bff; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra suave ao focar */
+}
+
+.app-title {
+    text-align: center;
+    margin-top: 20px; /* Espaço acima do título */
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #007bff; /* Cor do título principal */
+}
+
+/* Ajuste para o botão Cadastrar Login */
+.login-form .btn-cadastrar-login {
+    margin-top: 20px; /* Espaçamento acima do botão */
+    font-size: 16px;
+}
