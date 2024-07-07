@@ -5,7 +5,7 @@
 
 ### Descrição do Projeto
 
-O aplicativo facilita o gerenciamento de cargas e funcionários de forma eficiente, onde os apontadores/balançeiros/conferentes irão utilizar para fazerem o registro de entrada/saída de cargas e caminhões como também conforme a operação acontece, poderão editar em qual parte do armazém/planta essa carga se encontra. Aqui você encontrará todas as informações necessárias para entender e usar a aplicação.
+O aplicativo facilita o gerenciamento de cargas e descargas de forma eficiente, onde os apontadores/balançeiros/conferentes irão utilizar para fazerem o registro de entrada/saída de cargas e caminhões como também conforme a operação acontece, poderão editar em qual parte do armazém/planta essa carga se encontra. Aqui você encontrará todas as informações necessárias para entender e usar a aplicação.
 
 ### O que o aplicativo/sistema faz?
 
@@ -15,7 +15,7 @@ Na página de login, você pode acessar o sistema usando seu nome de usuário e 
 #### Página de Cadastro de Usuário
 Nessa página podemos adicionar novos usuários ao sistema, assim permitindo a navegação completa do site. É bem simples: preencha os campos necessários e crie o usuário!
 
-#### Página de Listagem de Funcionários
+#### Página de Listagem de Cargas e Descargas
 Nesta página, você vê todos as cargas e descargas cadastradas. Pode editar, excluir ou apenas visualizar suas informações, assim mantemos tudo organizado.
 - Operações de CRUD:
   - Criação (Create): Adicionar novas cargas de entrada/saída ao sistema.
@@ -56,7 +56,7 @@ Aqui os administradores podem visualizar, editar ou excluir contas de usuário. 
 ### Configurando e Executando a Aplicação
 
 1. Clone o Repositório
-   Primeiro, faça uma cópia do nosso projeto no seu computador:
+   Primeiro, faça uma cópia do nosso projeto no seu computador: https://github.com/malvesto/bussinesscasemt.git
 
 2. Instale as Dependências
    Certifique-se de ter o Node.js instalado. Em seguida, instale as dependências necessárias:
